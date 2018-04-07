@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Home from './Pages/Home';
+import Profile from './Pages/Profile';  
 import './App.css';
 
 class App extends Component {
@@ -6,6 +8,8 @@ class App extends Component {
     return (
       <div>
         Hello
+        <Home />
+        <Profile />
       </div>
     );
   }
