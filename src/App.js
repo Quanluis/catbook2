@@ -14,9 +14,7 @@ class App extends Component {
     super();
       this.auth = new Auth();
   }
-      componentDidMount(){
-        this.auth.login();
-  }
+  
   render() {
     return (
       <div>
@@ -25,7 +23,7 @@ class App extends Component {
           <Link to = '/profile' > Profile </Link> 
         </li>
         <li>
-          <Link to = '/signup' > Signup </Link>
+          <button onClick = {() => this.auth.login() } > sign up </button>
         </li>
         <li>
           <Link to = '/signin' > Signin </Link>
