@@ -1,8 +1,4 @@
-import React from 'react';
+import React from "react";
 
-const Signin = props => (
-    <div>
-        
-    </div>
-)
-export default Signin; 
+const Signin = props => <div />;
+export default Signin;
